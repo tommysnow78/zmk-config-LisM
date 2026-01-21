@@ -32,8 +32,8 @@ layers:
   - .
   - /
   - {t: DEL, h: Device Layer}
-  - {t: Mouse Layer, h: toggle}
-  - {t: TAB, h: Mouse Layer}
+  - {t: Function Layer, h: toggle}
+  - {t: TAB, h: Function Layer}
   - Sft+Gui+4
   - {t: SPACE, h: Number Layer}
   - {t: ESC, h: Mark Layer}
@@ -43,7 +43,7 @@ layers:
   - F7
   - F10
   - {t: F12, h: Device Layer}
-  Mouse Layer:
+  Function Layer:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -62,7 +62,7 @@ layers:
   - Gui+↑
   - '&mkp MB1'
   - '&mkp MB2'
-  - {t: '&msc SCRL_UP', type: held}
+  - '&msc SCRL_UP'
   - '&msc SCRL_DOWN'
   - '&mkp MB4'
   - {t: ▽, type: trans}
@@ -76,7 +76,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -215,3 +215,46 @@ layers:
   - ''
   - ''
   - Boot
+  Mouse Layer:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - SPACE
+  - Gui+←
+  - Gui+→
+  - '&mkp MB3'
+  - {t: ▽, type: trans}
+  - '&mkp MB5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+↑
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - {t: '&msc SCRL_UP', type: held}
+  - '&msc SCRL_DOWN'
+  - '&mkp MB4'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+↓
+  - ←
+  - ↑
+  - →
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ↓
+  - {t: ▽, type: trans}
+  - Gui+W
