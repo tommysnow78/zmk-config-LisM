@@ -36,52 +36,52 @@ layers:
   - {t: TAB, h: Function Layer}
   - Sft+Gui+4
   - {t: SPACE, h: Number Layer}
-  - {t: ESC, h: Mark Layer}
+  - {t: ESC, h: Number Layer}
   - {t: BS, h: Mark Layer}
-  - {t: ENTER, h: Number Layer}
+  - {t: SPACE, h: Function Layer}
   - Sft+Gui+4
   - F7
   - F10
   - {t: F12, h: Device Layer}
   Function Layer:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
   - SPACE
-  - Gui+←
-  - Gui+→
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
-  - '&mkp MB5'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+↑
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&msc SCRL_UP'
-  - '&msc SCRL_DOWN'
-  - '&mkp MB4'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+↓
-  - ←
+  - HOME
   - ↑
+  - END
+  - PAGE UP
+  - {t: F6, h: LCTRL}
+  - F7
+  - F8
+  - F9
+  - F10
+  - ENTER
+  - ←
+  - DOWN ARROW
   - →
+  - {t: PAGE DOWN, h: RCTRL}
+  - LSHIFT
+  - LALT
   - {t: ▽, type: trans}
+  - F11
+  - F12
+  - BS
+  - DEL
+  - ↑
+  - ESCAPE
+  - {t: TAB, h: RSHFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ENTER
   - {t: ▽, type: trans}
   - ↓
   - {t: ▽, type: trans}
@@ -112,8 +112,8 @@ layers:
   - '2'
   - '3'
   - +
-  - '&mkp MB2'
-  - ''
+  - LANGUAGE 2
+  - LANG1
   - ↓
   - ''
   - RALT
@@ -165,8 +165,8 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - SPACE
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - ENTER
   - {t: ▽, type: trans}
   - ''
