@@ -233,7 +233,7 @@ layers:
   - {t: ▽, type: trans}
   - Gui+↑
   - '&mkp MB1'
-  - {t: '&mkp MB2', type: held}
+  - {t: '&mkp MB3', type: held}
   - '&msc SCRL_UP'
   - '&msc SCRL_DOWN'
   - '&mkp MB4'
