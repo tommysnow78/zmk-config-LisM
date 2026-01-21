@@ -19,7 +19,7 @@ layers:
   - {t: H, h: RCTRL}
   - {t: J, h: RGUI}
   - {t: K, h: Mouse Layer}
-  - {t: L, h: Mouse Layer}
+  - {t: L, h: RALT}
   - {t: ':', h: RCTRL}
   - Z
   - X
@@ -242,7 +242,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+↓
-  - ←
+  - '&mkp MB2'
   - ↑
   - →
   - {t: ▽, type: trans}
