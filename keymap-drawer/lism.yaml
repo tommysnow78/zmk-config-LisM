@@ -18,7 +18,7 @@ layers:
   - {t: G, h: LCTRL}
   - {t: H, h: RCTRL}
   - {t: J, h: RGUI}
-  - {t: K, h: RSHIFT}
+  - {t: K, h: Mouse Layer}
   - {t: L, h: Mouse Layer}
   - {t: ':', h: RCTRL}
   - Z
@@ -233,8 +233,8 @@ layers:
   - {t: ▽, type: trans}
   - Gui+↑
   - '&mkp MB1'
-  - '&mkp MB2'
-  - {t: '&msc SCRL_UP', type: held}
+  - {t: '&mkp MB2', type: held}
+  - '&msc SCRL_UP'
   - '&msc SCRL_DOWN'
   - '&mkp MB4'
   - {t: ▽, type: trans}
