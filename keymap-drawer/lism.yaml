@@ -19,8 +19,8 @@ layers:
   - {t: H, h: RCTRL}
   - {t: J, h: RGUI}
   - {t: K, h: RSHIFT}
-  - {t: L, h: RALT}
-  - {t: ;, h: Mark Layer}
+  - {t: L, h: Mouse Layer}
+  - {t: ':', h: RCTRL}
   - Z
   - X
   - C
@@ -62,7 +62,7 @@ layers:
   - Gui+↑
   - '&mkp MB1'
   - '&mkp MB2'
-  - '&msc SCRL_UP'
+  - {t: '&msc SCRL_UP', type: held}
   - '&msc SCRL_DOWN'
   - '&mkp MB4'
   - {t: ▽, type: trans}
@@ -76,7 +76,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -87,18 +87,18 @@ layers:
   - {t: ▽, type: trans}
   - Gui+W
   Number Layer:
-  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
   - '7'
   - '8'
   - '9'
-  - '='
-  - F1
-  - F2
-  - F7
-  - F10
-  - RSHIFT
-  - '*'
-  - {t: '4', h: LALT}
+  - '0'
+  - LCTRL
+  - {t: '2', h: toggle}
   - {t: '5', h: LSHIFT}
   - {t: '6', h: LGUI}
   - {t: '-', h: LCTRL}
@@ -107,7 +107,7 @@ layers:
   - ↑
   - →
   - RGUI
-  - /
+  - {t: LSHFT, h: toggle}
   - '1'
   - '2'
   - '3'
@@ -119,7 +119,7 @@ layers:
   - RALT
   - {t: ▽, type: trans}
   - .
-  - '0'
+  - {t: LGUI, h: toggle}
   - {t: ▽, type: trans}
   - {t: LANG2, type: held}
   - {t: ▽, type: trans}
@@ -149,7 +149,7 @@ layers:
   - _
   - ''''
   - '"'
-  - {t: \, type: held}
+  - \
   - KP NUMLOCK
   - F11
   - '{'
@@ -165,7 +165,7 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - SPACE
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - ENTER
   - {t: ▽, type: trans}
