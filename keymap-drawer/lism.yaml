@@ -65,7 +65,7 @@ layers:
   - →
   - {t: PAGE DOWN, h: RCTRL}
   - LSHIFT
-  - LALT
+  - LCTRL
   - {t: ▽, type: trans}
   - F11
   - F12
