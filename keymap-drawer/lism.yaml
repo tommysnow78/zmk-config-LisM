@@ -233,8 +233,8 @@ layers:
   - ''
   - Gui+↑
   - '&mkp MB1'
-  - {t: Mark Layer, type: held}
-  - '&mkp MB3'
+  - {t: Mouse Layer, type: held}
+  - '&mkp MCLK'
   - '&msc SCRL_DOWN'
   - LSHIFT
   - LCTRL
