@@ -222,29 +222,29 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - SPACE
-  - '&msc SCRL_LEFT'
+  - Gui+←
   - Gui+→
-  - '&msc SCRL_RIGHT'
+  - Gui+RIGHT ARROW
   - '&msc SCRL_UP'
-  - '&mkp MB5'
-  - LEFT ALT
-  - LSHIFT
   - LCTRL
-  - LWIN
+  - LEFT ALT
+  - LEFT WIN
+  - LSHIFT
+  - ''
   - Gui+↑
   - '&mkp MB1'
-  - {t: '&mkp MB3', type: held}
+  - {t: Mark Layer, type: held}
   - '&mkp MB3'
   - '&msc SCRL_DOWN'
-  - '&mkp MB4'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LSHIFT
+  - LCTRL
+  - LEFT ALT
+  - LWIN
   - {t: ▽, type: trans}
   - Gui+↓
   - '&mkp MB2'
-  - ↑
-  - →
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -255,6 +255,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ↓
+  - ''
   - {t: ▽, type: trans}
-  - Gui+W
+  - ''
