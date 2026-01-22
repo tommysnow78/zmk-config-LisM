@@ -98,13 +98,13 @@ layers:
   - '9'
   - '0'
   - LCTRL
-  - {t: '{', h: LEFT ALT}
-  - {t: KP EQUAL, h: LWIN}
+  - {t: '[', h: LEFT ALT}
+  - {t: '=', h: LWIN}
   - {t: INT YEN, h: LSHIFT}
   - {t: '-', h: LCTRL}
   - SEMI
   - {t: '''', h: RSHIFT}
-  - {t: '}', h: RWIN}
+  - {t: ']', h: RWIN}
   - {t: \, h: RIGHT ALT}
   - {t: INT1, h: RCTRL}
   - {t: LSHFT, h: toggle}
