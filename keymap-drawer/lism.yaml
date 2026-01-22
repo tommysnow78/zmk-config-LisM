@@ -35,7 +35,7 @@ layers:
   - {t: Function Layer, h: toggle}
   - {t: TAB, h: Function Layer}
   - Sft+Gui+4
-  - {t: SPACE, h: Number Layer}
+  - {t: LANG ZENKAKUHANKAKU, h: Number Layer}
   - {t: TAB, h: Number Layer}
   - {t: BS, h: Mark Layer}
   - {t: SPACE, h: Function Layer}
