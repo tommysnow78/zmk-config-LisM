@@ -30,7 +30,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: RSHIFT}
   - {t: DEL, h: Device Layer}
   - {t: Function Layer, h: toggle}
   - {t: TAB, h: Function Layer}
