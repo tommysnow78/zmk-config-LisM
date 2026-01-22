@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - A
+  - {t: A, h: LSHIFT}
   - {t: S, h: LALT}
   - {t: D, h: LSHIFT}
   - {t: F, h: LCTRL}
@@ -21,7 +21,7 @@ layers:
   - {t: K, h: Mouse Layer}
   - {t: L, h: RALT}
   - {t: '-', h: RCTRL}
-  - Z
+  - {t: Z, h: LSHIFT}
   - X
   - C
   - V
