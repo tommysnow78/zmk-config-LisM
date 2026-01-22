@@ -227,10 +227,10 @@ layers:
   - '&mkp MB3'
   - {t: ▽, type: trans}
   - '&mkp MB5'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ALT
+  - LSHIFT
+  - LCTRL
+  - LWIN
   - Gui+↑
   - '&mkp MB1'
   - {t: '&mkp MB3', type: held}
