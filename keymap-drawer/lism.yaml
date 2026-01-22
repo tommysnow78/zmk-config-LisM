@@ -36,7 +36,7 @@ layers:
   - {t: TAB, h: Function Layer}
   - Sft+Gui+4
   - {t: SPACE, h: Number Layer}
-  - {t: ESC, h: Number Layer}
+  - {t: TAB, h: Number Layer}
   - {t: BS, h: Mark Layer}
   - {t: SPACE, h: Function Layer}
   - Sft+Gui+4
@@ -55,9 +55,9 @@ layers:
   - END
   - PAGE UP
   - {t: F6, h: LCTRL}
-  - F7
-  - F8
-  - F9
+  - {t: F7, h: LEFT ALT}
+  - {t: F8, h: LWIN}
+  - {t: F9, h: LSHIFT}
   - F10
   - ENTER
   - ←
@@ -98,15 +98,15 @@ layers:
   - '9'
   - '0'
   - LCTRL
-  - {t: '2', h: toggle}
-  - {t: '5', h: LSHIFT}
-  - {t: '6', h: LGUI}
+  - {t: AT, h: LEFT ALT}
+  - {t: INT YEN, h: LWIN}
+  - {t: ^, h: LSHIFT}
   - {t: '-', h: LCTRL}
-  - '&mkp MB1'
-  - ←
-  - ↑
-  - →
-  - RGUI
+  - SEMI
+  - {t: ':', h: RSHIFT}
+  - {t: '[', h: RWIN}
+  - {t: ']', h: RIGHT ALT}
+  - {t: \, h: RCTRL}
   - {t: LSHFT, h: toggle}
   - '1'
   - '2'
