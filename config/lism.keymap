@@ -65,7 +65,7 @@
             bindings = <
 &kp F1        &kp F2           &kp F3       &kp F4         &kp F5                    &kp SPACE      &kp HOME    &kp UP              &kp END     &kp PAGE_UP
 &mt LCTRL F6  &mt LEFT_ALT F7  &mt LWIN F8  &mt LSHIFT F9  &kp F10                   &kp ENTER      &kp LEFT    &kp DOWN_ARROW      &kp RIGHT   &mt RCTRL PAGE_DOWN
-&kp LSHIFT    &kp LALT         &trans       &kp F11        &kp F12                   &kp BACKSPACE  &kp DELETE  &kp K_CONTEXT_MENU  &kp ESCAPE  &mt RSHFT TAB
+&kp LSHIFT    &kp LCTRL        &trans       &kp F11        &kp F12                   &kp BACKSPACE  &kp DELETE  &kp K_CONTEXT_MENU  &kp ESCAPE  &mt RSHFT TAB
 &trans        &trans           &trans       &trans         &trans   &trans    &none  &kp ENTER      &trans      &kp DOWN            &trans      &kp LG(W)
             >;
         };
