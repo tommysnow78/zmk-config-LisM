@@ -14,13 +14,13 @@ layers:
   - A
   - {t: S, h: LALT}
   - {t: D, h: LSHIFT}
-  - {t: F, h: LGUI}
-  - {t: G, h: LCTRL}
-  - {t: H, h: RCTRL}
-  - {t: J, h: RGUI}
+  - {t: F, h: LCTRL}
+  - {t: G, h: LWIN}
+  - {t: H, h: RWIN}
+  - {t: J, h: RCTRL}
   - {t: K, h: Mouse Layer}
   - {t: L, h: RALT}
-  - {t: ':', h: RCTRL}
+  - {t: '-', h: RCTRL}
   - Z
   - X
   - C
@@ -71,7 +71,7 @@ layers:
   - F12
   - BS
   - DEL
-  - ↑
+  - CONTEXT MENU
   - ESCAPE
   - {t: TAB, h: RSHFT}
   - {t: ▽, type: trans}
