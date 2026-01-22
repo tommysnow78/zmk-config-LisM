@@ -222,10 +222,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - SPACE
-  - Gui+←
+  - '&msc SCRL_LEFT'
   - Gui+→
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
+  - '&msc SCRL_RIGHT'
+  - '&msc SCRL_UP'
   - '&mkp MB5'
   - LEFT ALT
   - LSHIFT
@@ -234,7 +234,7 @@ layers:
   - Gui+↑
   - '&mkp MB1'
   - {t: '&mkp MB3', type: held}
-  - '&msc SCRL_UP'
+  - '&mkp MB3'
   - '&msc SCRL_DOWN'
   - '&mkp MB4'
   - {t: ▽, type: trans}
