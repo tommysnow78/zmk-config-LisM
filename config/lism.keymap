@@ -51,10 +51,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q         &kp W        &kp E       &kp R           &kp T                                                    &kp Y        &kp U           &kp I      &kp O       &mt RWIN P
-&mt LCTRL A   &mt LALT S   &mt LWIN D  &mt LSHIFT F    &kp G                                                    &kp H        &mt RSHIFT J    &lt 5 K    &mt RALT L  &mt RCTRL MINUS
-&mt LSHIFT Z  &mt LCTRL X  &kp C       &kp V           &kp B                                                    &kp N        &kp M           &kp COMMA  &kp DOT     &mt RSHIFT SLASH
-&lt 4 DELETE  &tog 1       &lt 1 TAB   &kp LS(LG(N4))  &lt 2 LANG_ZENKAKUHANKAKU  &lt 2 TAB    &lt 3 BACKSPACE  &lt 1 SPACE  &kp LS(LG(N4))  &kp F7     &kp F10     &lt 4 F12
+&kp Q         &kp W        &kp E       &kp R           &kp T                                    &kp Y        &kp U           &kp I      &kp O       &mt RWIN P
+&mt LCTRL A   &mt LALT S   &mt LWIN D  &mt LSHIFT F    &kp G                                    &kp H        &mt RSHIFT J    &lt 5 K    &mt RALT L  &mt RCTRL MINUS
+&mt LSHIFT Z  &mt LCTRL X  &kp C       &kp V           &kp B                                    &kp N        &kp M           &kp COMMA  &kp DOT     &mt RSHIFT SLASH
+&lt 4 DELETE  &none        &none       &kp LS(LG(N4))  &kp LANG5  &lt 2 TAB    &lt 3 BACKSPACE  &lt 1 SPACE  &kp LS(LG(N4))  &kp F7     &kp F10     &lt 4 F12
             >;
 
             sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
@@ -73,10 +73,10 @@
         layer_2 {
             display-name = "Number Layer";
             bindings = <
-&kp N1     &kp N2                   &kp N3             &kp N4            &kp N5                             &kp N6          &kp N7            &kp N8                &kp N9                   &kp N0
-&kp LCTRL  &mt LEFT_ALT LEFT_BRACE  &mt LWIN KP_EQUAL  &mt LSHIFT CARET  &mt LCTRL MINUS                    &kp SEMI        &mt RSHIFT COLON  &mt RWIN RIGHT_BRACE  &mt RIGHT_ALT BACKSLASH  &mt RCTRL BACKSLASH
-&kt LSHFT  &kp NUMBER_1             &kp NUMBER_2       &kp NUMBER_3      &kp PLUS                           &kp LANGUAGE_2  &kp LANG1         &kp DOWN              &none                    &kp RALT
-&trans     &kp DOT                  &kt LGUI           &trans            &kp LANG2        &trans    &trans  &kp LANG1       &trans            &kp RS(RC(TAB))       &kp RC(TAB)              &kp F12
+&kp N1     &kp N2                   &kp N3             &kp N4              &kp N5                             &kp N6          &kp N7                   &kp N8                &kp N9                   &kp N0
+&kp LCTRL  &mt LEFT_ALT LEFT_BRACE  &mt LWIN KP_EQUAL  &mt LSHIFT INT_YEN  &mt LCTRL MINUS                    &kp SEMI        &mt RSHIFT SINGLE_QUOTE  &mt RWIN RIGHT_BRACE  &mt RIGHT_ALT BACKSLASH  &mt RCTRL INT1
+&kt LSHFT  &kp LCTRL                &kp LALT           &kp LWIN            &kp PLUS                           &kp LANGUAGE_2  &kp LANG1                &none                 &none                    &kp RSHIFT
+&trans     &kp DOT                  &kt LGUI           &trans              &kp LANG2        &trans    &trans  &kp LANG1       &trans                   &kp RS(RC(TAB))       &kp RC(TAB)              &none
             >;
 
             sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
