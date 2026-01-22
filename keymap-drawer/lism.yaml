@@ -31,18 +31,18 @@ layers:
   - ','
   - .
   - {t: /, h: RSHIFT}
-  - {t: DEL, h: Device Layer}
+  - Device Layer
   - ''
   - ''
   - Sft+Gui+4
-  - LANG5
+  - {t: LANG ZENKAKUHANKAKU, h: LEFT ALT}
   - {t: TAB, h: Number Layer}
   - {t: BS, h: Mark Layer}
   - {t: SPACE, h: Function Layer}
   - Sft+Gui+4
-  - F7
-  - F10
-  - {t: F12, h: Device Layer}
+  - ''
+  - ''
+  - Device Layer
   Function Layer:
   - F1
   - F2
