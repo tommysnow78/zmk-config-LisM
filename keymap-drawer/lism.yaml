@@ -22,7 +22,7 @@ layers:
   - {t: L, h: RALT}
   - {t: '-', h: RCTRL}
   - {t: Z, h: LSHIFT}
-  - X
+  - {t: X, h: LCTRL}
   - C
   - V
   - B
