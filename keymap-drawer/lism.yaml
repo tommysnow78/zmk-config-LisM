@@ -32,10 +32,10 @@ layers:
   - .
   - {t: /, h: RSHIFT}
   - {t: DEL, h: Device Layer}
-  - {t: Function Layer, h: toggle}
-  - {t: TAB, h: Function Layer}
+  - ''
+  - ''
   - Sft+Gui+4
-  - {t: LANG ZENKAKUHANKAKU, h: Number Layer}
+  - LANG5
   - {t: TAB, h: Number Layer}
   - {t: BS, h: Mark Layer}
   - {t: SPACE, h: Function Layer}
@@ -76,12 +76,12 @@ layers:
   - {t: TAB, h: RSHFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - ENTER
+  - {t: ENTER, type: held}
   - {t: ▽, type: trans}
   - ↓
   - {t: ▽, type: trans}
@@ -100,35 +100,35 @@ layers:
   - LCTRL
   - {t: '{', h: LEFT ALT}
   - {t: KP EQUAL, h: LWIN}
-  - {t: ^, h: LSHIFT}
+  - {t: INT YEN, h: LSHIFT}
   - {t: '-', h: LCTRL}
   - SEMI
-  - {t: ':', h: RSHIFT}
+  - {t: '''', h: RSHIFT}
   - {t: '}', h: RWIN}
   - {t: \, h: RIGHT ALT}
-  - {t: \, h: RCTRL}
+  - {t: INT1, h: RCTRL}
   - {t: LSHFT, h: toggle}
-  - '1'
-  - '2'
-  - '3'
+  - LCTRL
+  - LALT
+  - LWIN
   - +
   - LANGUAGE 2
   - LANG1
-  - ↓
   - ''
-  - RALT
+  - ''
+  - RSHIFT
   - {t: ▽, type: trans}
   - .
   - {t: LGUI, h: toggle}
   - {t: ▽, type: trans}
-  - {t: LANG2, type: held}
-  - {t: ▽, type: trans}
+  - LANG2
+  - {type: held}
   - {t: ▽, type: trans}
   - LANG1
   - {t: ▽, type: trans}
   - Sft+Ctl+TAB
   - Ctl+TAB
-  - F12
+  - ''
   Mark Layer:
   - Sft+Gui+4
   - F4
