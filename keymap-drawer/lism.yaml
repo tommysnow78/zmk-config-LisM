@@ -11,13 +11,13 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: LSHIFT}
+  - {t: A, h: LCTRL}
   - {t: S, h: LALT}
-  - {t: D, h: LSHIFT}
-  - {t: F, h: LCTRL}
-  - {t: G, h: LWIN}
-  - {t: H, h: RWIN}
-  - {t: J, h: RCTRL}
+  - {t: D, h: LWIN}
+  - {t: F, h: LSHIFT}
+  - G
+  - H
+  - {t: J, h: RSHIFT}
   - {t: K, h: Mouse Layer}
   - {t: L, h: RALT}
   - {t: '-', h: RCTRL}
