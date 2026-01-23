@@ -31,18 +31,18 @@ layers:
   - ','
   - .
   - {t: /, h: RSHIFT}
+  - ''
+  - ''
   - Device Layer
-  - ''
-  - ''
   - Sft+Gui+4
   - {t: LANG ZENKAKUHANKAKU, h: LEFT ALT}
   - {t: TAB, h: Number Layer}
   - {t: BS, h: Mark Layer}
   - {t: SPACE, h: Function Layer}
   - Sft+Gui+4
-  - ''
-  - ''
   - Device Layer
+  - ''
+  - ''
   Function Layer:
   - F1
   - F2
@@ -177,7 +177,7 @@ layers:
   - ''
   - ''
   - ''
-  - BT CLR
+  - ''
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -203,9 +203,9 @@ layers:
   - ''
   - ''
   - Reset
-  - {t: Boot, type: held}
+  - Boot
   - BT CLR ALL
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -213,7 +213,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - BT CLR
   - Boot
   Mouse Layer:
   - {t: ▽, type: trans}
@@ -227,7 +227,7 @@ layers:
   - Gui+RIGHT ARROW
   - '&msc SCRL_UP'
   - LCTRL
-  - LEFT ALT
+  - {t: Sft+Gui+S, h: LEFT ALT}
   - LEFT WIN
   - LSHIFT
   - ''
