@@ -145,7 +145,7 @@ layers:
   - LEFT WIN
   - LSHIFT
   - ''
-  - Gui+↑
+  - Gui+Sft+D
   - '&mkp MB1'
   - {t: Mouse Layer, type: held}
   - '&mkp MCLK'
@@ -167,7 +167,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+Gui+D
+  - Function Layer
   - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
