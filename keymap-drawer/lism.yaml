@@ -114,8 +114,8 @@ layers:
   - +
   - LANGUAGE 2
   - LANG1
-  - ''
-  - ''
+  - ','
+  - PERIOD
   - RSHIFT
   - {t: ▽, type: trans}
   - .
