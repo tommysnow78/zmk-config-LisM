@@ -86,9 +86,9 @@
             display-name = "Mouse Layer";
             bindings = <
 &trans      &trans                  &trans        &trans      &trans                    &kp SPACE      &kp LG(LEFT)  &kp RG(RIGHT)  &kp LG(RIGHT_ARROW)  &msc SCRL_UP
-&kp LCTRL   &mt LEFT_ALT LS(LG(S))  &kp LEFT_WIN  &kp LSHIFT  &none                     &kp LG(UP)     &mkp MB1      &mo 3          &mkp MCLK            &msc SCRL_DOWN
+&kp LCTRL   &mt LEFT_ALT LS(LG(S))  &kp LEFT_WIN  &kp LSHIFT  &none                     &kp LG(LS(D))  &mkp MB1      &mo 3          &mkp MCLK            &msc SCRL_DOWN
 &kp LSHIFT  &kp LCTRL               &kp LEFT_ALT  &kp LWIN    &trans                    &kp LG(DOWN)   &mkp MB2      &none          &none                &trans
-&trans      &trans                  &trans        &trans      &trans  &trans    &trans  &kp LS(LG(D))  &trans        &none          &trans               &none
+&trans      &trans                  &trans        &trans      &trans  &trans    &trans  &mo 1          &trans        &none          &trans               &none
             >;
         };
 
