@@ -35,7 +35,7 @@ layers:
   - ''
   - Device Layer
   - Sft+Gui+4
-  - {t: LANG ZENKAKUHANKAKU, h: LEFT ALT}
+  - {t: APOS, h: LEFT ALT}
   - {t: TAB, h: Number Layer}
   - {t: BS, h: RSHIFT}
   - {t: SPACE, h: Function Layer}
@@ -123,8 +123,8 @@ layers:
   - {t: ▽, type: trans}
   - LANG2
   - {type: held}
+  - BS
   - SPACE
-  - LANG1
   - {t: ▽, type: trans}
   - Sft+Ctl+TAB
   - Ctl+TAB
