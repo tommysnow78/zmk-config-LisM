@@ -107,7 +107,7 @@ layers:
   - {t: ']', h: RWIN}
   - {t: \, h: RIGHT ALT}
   - {t: INT1, h: RCTRL}
-  - {t: LSHFT, h: toggle}
+  - LSHFT
   - LCTRL
   - LALT
   - LWIN
