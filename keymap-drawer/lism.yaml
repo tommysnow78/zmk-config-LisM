@@ -124,7 +124,7 @@ layers:
   - LANG2
   - {type: held}
   - {t: BS, h: RSHIFT}
-  - SPACE
+  - {t: SPACE, h: Function Layer}
   - {t: ▽, type: trans}
   - Sft+Ctl+TAB
   - Ctl+TAB
@@ -136,9 +136,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - SPACE
-  - Gui+←
-  - Gui+→
-  - Gui+RIGHT ARROW
+  - ''
+  - ''
+  - ''
   - '&msc SCRL_UP'
   - LCTRL
   - {t: Sft+Gui+S, h: LEFT ALT}
