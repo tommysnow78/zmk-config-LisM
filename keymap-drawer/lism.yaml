@@ -81,7 +81,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - {t: ENTER, type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - ↓
   - {t: ▽, type: trans}
@@ -124,7 +124,7 @@ layers:
   - LANG2
   - {type: held}
   - {t: BS, h: RSHIFT}
-  - {t: SPACE, h: Function Layer}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+Ctl+TAB
   - Ctl+TAB
