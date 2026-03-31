@@ -37,8 +37,8 @@ layers:
   - Sft+Gui+4
   - {t: APOS, h: LEFT ALT}
   - {t: TAB, h: Number Layer}
-  - {t: BS, h: RSHIFT}
-  - {t: SPACE, h: Function Layer}
+  - {t: SPACE, h: RSHIFT}
+  - {t: BS, h: Function Layer}
   - Sft+Gui+4
   - Device Layer
   - ''
