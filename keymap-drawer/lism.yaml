@@ -215,3 +215,46 @@ layers:
   - ''
   - BT CLR
   - Boot
+  Scroll Layer:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - SPACE
+  - ''
+  - ''
+  - ''
+  - '&msc SCRL_UP'
+  - LCTRL
+  - {t: Sft+Gui+S, h: LEFT ALT}
+  - LEFT WIN
+  - LSHIFT
+  - ''
+  - Gui+Sft+D
+  - '&mkp MB1'
+  - Mouse Layer
+  - '&mkp MCLK'
+  - '&msc SCRL_DOWN'
+  - LSHIFT
+  - LCTRL
+  - LEFT ALT
+  - LWIN
+  - {t: ▽, type: trans}
+  - Gui+↓
+  - '&mkp MB2'
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Function Layer
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - ''
