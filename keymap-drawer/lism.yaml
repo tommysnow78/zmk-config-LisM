@@ -148,7 +148,7 @@ layers:
   - Gui+Sft+D
   - '&mkp MB1'
   - {t: Mouse Layer, type: held}
-  - '&mkp MCLK'
+  - Scroll Layer
   - '&msc SCRL_DOWN'
   - LSHIFT
   - LCTRL
@@ -233,8 +233,8 @@ layers:
   - ''
   - Gui+Sft+D
   - '&mkp MB1'
-  - Mouse Layer
-  - '&mkp MCLK'
+  - {t: Mouse Layer, type: held}
+  - {t: '&mkp MCLK', type: held}
   - '&msc SCRL_DOWN'
   - LSHIFT
   - LCTRL
