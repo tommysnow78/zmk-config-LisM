@@ -1,0 +1,12 @@
+#include <input/processors.dtsi>
+
+/* central_listener の scroller を上書き */
+&central_listener {
+    scroller {
+        layers = <5>;   /* ←ここで layer 5 に限定 */
+        input-processors = <
+            &zip_xy_to_scroll_mapper
+            &zip_scroll_scaler 1 16  /* 元設定そのまま（微細スクロール） */
+        >;
+    };
+};
