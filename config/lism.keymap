@@ -1,4 +1,4 @@
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 200
+l#define ZMK_POINTING_DEFAULT_SCRL_VAL 200
 
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
@@ -104,6 +104,7 @@
 
         layer_5 {
             display-name = "Scroll Layer";
+            input-processors = <&zip_scroll_scaler 1-1>; 
             bindings = <
 &trans      &trans                  &trans        &trans      &trans                    &kp SPACE      &none     &none  &none      &msc SCRL_UP
 &kp LCTRL   &mt LEFT_ALT LS(LG(S))  &kp LEFT_WIN  &kp LSHIFT  &none                     &kp LG(LS(D))  &mkp MB1  &mo 3  &mkp MCLK  &msc SCRL_DOWN
