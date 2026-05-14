@@ -222,7 +222,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - SPACE
-  - ''
+  - U
   - ''
   - ''
   - '&msc SCRL_UP'
