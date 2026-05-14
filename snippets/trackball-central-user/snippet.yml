@@ -1,3 +1,0 @@
-name: trackball-central-user
-append:
-  EXTRA_DTC_OVERLAY_FILE: trackball-central-user.overlay
