@@ -116,7 +116,7 @@
 };
 
 /* ここからトラックボールのスクロール切り替え設定 */
-&trackball_listener {
+&trackball_central {
     scroller {
         layers = <5>;
         input-processors = <&zip_xy_to_scroll_mapper>;
