@@ -6,7 +6,7 @@
         layers = <5>;   /* ←ここで layer 5 に限定 */
         input-processors = <
             &zip_xy_to_scroll_mapper
-            &zip_scroll_scaler 1 16  /* 元設定そのまま（微細スクロール） */
+            &zip_scroll_scaler 1 4  /* 元設定そのまま（微細スクロール） */
         >;
     };
 };
